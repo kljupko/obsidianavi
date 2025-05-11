@@ -3,14 +3,7 @@ Function: Journal
 Date: {{date:YYYY-MM-DD}}
 ---
 > [!navigation]+
-> ⚓ Parent
-> %%navi-p%%
-> 
-> 🔗 Siblings (%%navi-sc%%)
-> %%navi-s%%
-> 
-> 🖇️ Children (%%navi-cc%%)
-> %%navi-c%%
+> %%navi-yest%% | %%navi-tod%%
 
 # {{date:dddd, Do of MMMM, YYYY}}
 

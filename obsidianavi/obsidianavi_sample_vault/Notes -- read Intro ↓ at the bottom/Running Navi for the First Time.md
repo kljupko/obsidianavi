@@ -34,24 +34,15 @@ You’re ready to run Navi.
 1. **Open a terminal or command prompt**  
    Use Terminal (macOS/Linux) or Command Prompt / PowerShell (Windows).
 
-2. **Navigate to the `obsidianavi` folder**  
-   > You can skip this step if you've installed `obsidianavi` using `pip`.
+2. **Initialize Navi**
    
-   In the terminal, use the `cd` command to move into the directory where you downloaded `obsidianavi`. For example:
-
-	```bash
-	cd path/to/your/obsidianavi
-	```
-
-	You should be in the same folder where a `README.md` file is located, along with the `/obsidianavi` folder.
-
-3. **Initialize Navi**
+   > [!info]
    > If you're reading this in your vault, you've already done this step, so you can skip it.
    
-   Running the following command will create a fresh configuration file and a sample vault for you to play with:
+   Running the command below creates a fresh configuration file and this sample vault for you to play with.
    
    ```bash
-   python -m obsidianavi.cli
+   obsidianavi
 	```
    
    You should see an output in your terminal similar to the following:
@@ -61,11 +52,14 @@ You’re ready to run Navi.
 	[INFO] Sample vault not found. Initializing in: /path/to/your/Documents/obsidianavi_sample_vault
 	```
    
-4. **Insert links into these notes** by running the following command:
+3. **Insert links into these notes** by running the following command:
 
 	```python
-	python -m obsidianavi.cli --write
+	obsidianavi --write
 	```
+
+	> [!tip]
+	> You can also use just `onavi` if the full `obsidianavi` is too long.
 
 ### ✅ What this does:
 
@@ -78,7 +72,7 @@ You’re ready to run Navi.
 ### 🧪 What to expect:
 
 - Each note will now have a block at the top showing where it fits in the structure
-- If you're using Obsidian, you’ll see clickable links immediately
+- If you're using Obsidian, you’ll see clickable links immediately (scroll up to check it out!)
 - No files are deleted or moved — only updated with links
 
 ---
@@ -88,7 +82,7 @@ You’re ready to run Navi.
 If anything doesn’t look right, or you want to reverse the changes, you can always run:
 
 ```bash
-python -m obsidianavi.cli --revert
+obsidianavi --revert
 ```
 
 This will undo the generated links and return each note to its original state.
@@ -97,4 +91,8 @@ This will undo the generated links and return each note to its original state.
 
 ---
 ## What Now...
-If you've successfully run the command, the Information notes should also be linked, so If you wish to know more about anything, see the [[Navi Intro]] note again, or you can keep exploring the various notes in the [[Tutorial]].
+If you've successfully run the command, the Information notes should also be linked, so If you wish to know more about anything, see the [[Navi Intro]] note again, or you can keep exploring the various notes in the [[Tutorial]]. There's a note in here somewhere that explains how to change the vault directory this tool targets. See if you can find it using the links in the Navigation callout.
+
+> [!warning]
+> Before using the script to link your vault, make sure to have a backup.
+> **This tool is still being tested!**

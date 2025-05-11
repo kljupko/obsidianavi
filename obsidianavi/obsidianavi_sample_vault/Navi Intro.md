@@ -30,6 +30,8 @@ Core design principles include:
 The tool supports batch processing, selective note targeting, and metadata-driven structure inference.
 
 ## Additional Information
-To get used to the hierarchical structure of Navi, almost no links were provided in these notes, even though a real note would contain them. Furthermore, the information notes are not distributed across folders. If you wish to learn more about Navi, you will need to generate the links for this vault via the CLI.
+To get used to the hierarchical structure of Navi, almost no links were provided in these notes, even though a real note would contain them. Furthermore, the notes are not divided hierarchically across folders.
+
+You may have noticed that the navigation callout at the top of the note does not contain any links. If you wish to learn how to use Navi, you will need to **generate the links** for this vault via the CLI.
 
 To get started on that, click this [[Tutorial]] link, and you will be guided through the process.
