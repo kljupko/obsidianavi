@@ -1,0 +1,4 @@
+.callout[data-callout="navigation"] {
+    --callout-icon: lucide-compass; /* compass icon */
+    --callout-color: var(--callout-quote); /* Matches [!quote] */
+}

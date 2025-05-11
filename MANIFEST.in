@@ -1,0 +1,3 @@
+include README.md
+include obsidianavi/obsidianavi_config.json
+recursive-include obsidianavi/obsidianavi_sample_vault *

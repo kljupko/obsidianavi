@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "f4aa582dbe929dba",
+    "type": "split",
+    "children": [
+      {
+        "id": "28d8e2234f687ffb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f98ae410cc05543",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tutorial -- read Intro ↓ at the bottom/Getting Started/Running Navi for the First Time.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Running Navi for the First Time"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "469a67a24e6e2bdb",
+    "type": "split",
+    "children": [
+      {
+        "id": "b9b259469014491c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "475b0db86ac76b9b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b7d19c2d36170b44",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c86d1f70a8cdf16d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 406.5
+  },
+  "right": {
+    "id": "cdfe17317dd0cbae",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ed20a6a0dfdc3ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "454c5e530572fa85",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Note D.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Note D"
+            }
+          },
+          {
+            "id": "6abd2e88d7935ce4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Note D.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Note D"
+            }
+          },
+          {
+            "id": "a240d12f188302e0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "81e5372643d362be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Note D.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Note D"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6f98ae410cc05543",
+  "lastOpenFiles": [
+    "Tutorial -- read Intro ↓ at the bottom/Getting Started/Vault Structure.md",
+    "Tutorial -- read Intro ↓ at the bottom/Getting Started/Getting Started.md",
+    "Tutorial.md",
+    "Navi Intro.md",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials/Understanding the Config File.md",
+    "Journal -- read Intro ↓ at the bottom/2025-05-08.md",
+    "replace_percent.py",
+    "Templates -- read Intro ↓ at the bottom/daily_journal_template.md",
+    "Journal -- read Intro ↓ at the bottom/2025-05-10.md",
+    "Journal -- read Intro ↓ at the bottom/2025-05-09.md",
+    "Tutorial -- read Intro ↓ at the bottom/Using Navi/Writing Links with Navi.md",
+    "Tutorial -- read Intro ↓ at the bottom/Using Navi/Using Navi.md",
+    "Tutorial -- read Intro ↓ at the bottom/Using Navi/Testing Navi on a Sample Vault.md",
+    "Tutorial -- read Intro ↓ at the bottom/Using Navi/Reverting Navi Changes.md",
+    "Tutorial -- read Intro ↓ at the bottom/Using Navi/Processing Specific Notes Only.md",
+    "Tutorial -- read Intro ↓ at the bottom/Metadata & Frontmatter Usage/Metadata & Frontmatter Usage.md",
+    "Tutorial -- read Intro ↓ at the bottom/Metadata & Frontmatter Usage/Hierarchical Structuring Guide.md",
+    "Tutorial -- read Intro ↓ at the bottom/Metadata & Frontmatter Usage/Date-Based Navigation Setup.md",
+    "Tutorial -- read Intro ↓ at the bottom/Getting Started/Running Navi for the First Time.md",
+    "Tutorial -- read Intro ↓ at the bottom/Metadata & Frontmatter Usage/Creating Frontmatter for Navigation.md",
+    "Tutorial -- read Intro ↓ at the bottom/Getting Started/Installation Guide.md",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials/Excluding Notes and Folders.md",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials/Editing Config via CLI.md",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials/Customizing Navigation Tags.md",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials/Configuration Tutorials.md",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials/Adding Navi Callout CSS to Your Vault.md",
+    "Information -- read Intro ↓ at the bottom/Processing/Template Tag System.md",
+    "Tutorial -- read Intro ↓ at the bottom/Using Navi",
+    "Tutorial -- read Intro ↓ at the bottom/Metadata & Frontmatter Usage",
+    "Tutorial -- read Intro ↓ at the bottom/Configuration Tutorials",
+    "Tutorial -- read Intro ↓ at the bottom/Getting Started",
+    "Information.zip",
+    "Information -- read Intro ↓ at the bottom/Basic Concepts",
+    "Information -- read Intro ↓ at the bottom/Processing",
+    "Information -- read Intro ↓ at the bottom/Modules",
+    "Journal -- read Intro ↓ at the bottom"
+  ]
+}

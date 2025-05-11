@@ -1,0 +1,69 @@
+{
+  "vault_directory": "~/Documents/obsidianavi_sample_vault",
+  "exclude_files": [
+    "README"
+  ],
+  "exclude_folders": [
+    "Templates",
+    "Attatchments",
+    ".obsidian",
+    ".trash"
+  ],
+  "hierarchy_keys": [
+    "Function",
+    "Domain",
+    "Sub-domain",
+    "Subject",
+    "Area",
+    "Topic",
+    "Aspect",
+    "Detail",
+    "Facet"
+  ],
+  "date_settings": {
+    "date_property_name": "Date",
+    "date_format": "%Y-%m-%d",
+    "aliases": {
+      "yesterday": "Yesterday",
+      "today": "Today",
+      "tomorrow": "Tomorrow"
+    }
+  },
+  "obsidianavi_link": {
+    "separator": "/",
+    "use_nonbreaking_space": "true",
+    "is_self_sibling": "true",
+    "is_self_italic": "true",
+    "is_self_linked": "false"
+  },
+  "template_tags": {
+    "parents": "%%navi-p%%",
+    "siblings": "%%navi-s%%",
+    "children": "%%navi-c%%",
+    "parents_count": "%%navi-pc%%",
+    "siblings_count": "%%navi-sc%%",
+    "children_count": "%%navi-cc%%",
+    "yesterday": "%%navi-yest%%",
+    "today": "%%navi-tod%%",
+    "tomorrow": "%%navi-tom%%",
+    "open_parents": "%%<navi-p%%",
+    "close_parents": "%%navi-p>%%",
+    "open_siblings": "%%<navi-s%%",
+    "close_siblings": "%%navi-s>%%",
+    "open_children": "%%<navi-c%%",
+    "close_children": "%%navi-c>%%",
+    "open_parents_count": "%%<navi-pc%%",
+    "close_parents_count": "%%navi-pc>%%",
+    "open_siblings_count": "%%<navi-sc%%",
+    "close_siblings_count": "%%navi-sc>%%",
+    "open_children_count": "%%<navi-cc%%",
+    "close_children_count": "%%navi-cc>%%",
+    "open_yesterday": "%%<navi-yest%%",
+    "close_yesterday": "%%navi-yest>%%",
+    "open_today": "%%<navi-tod%%",
+    "close_today": "%%navi-tod>%%",
+    "open_tomorrow": "%%<navi-tom%%",
+    "close_tomorrow": "%%navi-tom>%%"
+  }
+}
+
