@@ -31,35 +31,40 @@ You’re ready to run Navi.
 
 ### 🧭 Step-by-step Instructions
 
-1. **Open a terminal or command prompt**  
-   Use Terminal (macOS/Linux) or Command Prompt / PowerShell (Windows).
+#### 1. Open a terminal or command prompt
 
-2. **Initialize Navi**
-   
-   > [!info]
-   > If you're reading this in your vault, you've already done this step, so you can skip it.
-   
-   Running the command below creates a fresh configuration file and this sample vault for you to play with.
-   
-   ```bash
-   obsidianavi
-	```
-   
-   You should see an output in your terminal similar to the following:
-   
-   ```terminal
-	[INFO] User config not found. Initializing from default.
-	[INFO] Sample vault not found. Initializing in: /path/to/your/Documents/obsidianavi_sample_vault
-	```
-   
-3. **Insert links into these notes** by running the following command:
+Use Terminal (macOS/Linux) or Command Prompt / PowerShell (Windows). This will allow you to use Navi, after you initialize the tool.
 
-	```python
-	obsidianavi --write
-	```
+#### 2. Initialize Navi
 
-	> [!tip]
-	> You can also use just `onavi` if the full `obsidianavi` is too long.
+> [!info]
+> If you're reading this in your vault, you've already done this step, so you can skip it.
+
+Running the command below creates a fresh configuration file and this sample vault for you to play with.
+
+```bash
+obsidianavi
+```
+
+You should see an output in your terminal similar to the following:
+
+```terminal
+[INFO] User config not found. Initializing from default.
+[INFO] Sample vault not found. Initializing in: /path/to/your/Documents/obsidianavi_sample_vault
+```
+
+#### 3. Insert links into these notes
+
+You can generate the links to easily navigate this vault by simply running the following command:
+
+```python
+obsidianavi --write
+```
+
+> [!tip]
+> You can also just use `onavi` if the full `obsidianavi` is too long.
+
+## Conslusion
 
 ### ✅ What this does:
 
