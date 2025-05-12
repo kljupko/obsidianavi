@@ -1,6 +1,7 @@
 # 🧽 ObsidiaNavi — Metadata-Driven Navigation for Obsidian Notes
 
-![navi](https://github.com/user-attachments/assets/46c61cbb-c14b-4b5f-b3ee-6486a7b459c7)
+![navi](https://github.com/user-attachments/assets/910b1e47-a4f5-4892-aa9b-5d163e35a15a)
+
 
 
 ObsidiaNavi (or "Navi" for short) is a command-line tool that automatically links your Obsidian markdown notes using structured frontmatter metadata. It turns your vault into a navigable, wiki-style knowledge system — powered entirely by fields you define.
