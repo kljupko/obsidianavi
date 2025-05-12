@@ -17,7 +17,7 @@ ObsidiaNavi (or "Navi" for short) is a command-line tool that automatically link
 By using ObsidiaNavi, you acknowledge that:
 
 * You are solely responsible for the safety of your files and data.
-* The author(s) of this tool are **not liable for any loss, corruption, or unintended changes** to your notes.
+* The author of this tool is **not liable for any loss, corruption, or unintended changes** to your notes.
 * You should always **make a complete backup of your data** before using Navi.
 
 Use at your own risk.
