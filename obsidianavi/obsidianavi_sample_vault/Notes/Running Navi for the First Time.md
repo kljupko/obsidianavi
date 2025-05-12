@@ -96,7 +96,7 @@ This will undo the generated links and return each note to its original state.
 
 ---
 ## What Now...
-If you've successfully run the command, the Information notes should also be linked, so If you wish to know more about anything, see the [[Navi Intro]] note again, or you can keep exploring the various notes in the [[Tutorial]]. There's a note in here somewhere that explains how to change the vault directory this tool targets. See if you can find it using the links in the Navigation callout.
+If you've successfully run the command, the Information notes should also be linked, so If you wish to know more about anything, see the [[Navi Intro]] note again, or you can keep exploring the various notes in the [[Tutorial]]. There's a note in here somewhere that can help you understand the config file and change the vault directory this tool targets. See if you can find it using the links in the Navigation callout.
 
 > [!warning]
 > Before using the script to link your vault, make sure to have a backup.

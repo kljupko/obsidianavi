@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e892a4c771b0788b",
+        "id": "798dcc1d65f2d291",
         "type": "tabs",
         "children": [
           {
-            "id": "da3320b5e1c84c76",
+            "id": "503679312cd771ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Navi Intro.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -168,16 +168,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "da3320b5e1c84c76",
+  "active": "503679312cd771ae",
   "lastOpenFiles": [
-    "Notes/Generating Links with Navi.md",
-    "Notes/Vault Structure.md",
-    "Notes/Using Navi.md",
     "Notes/Understanding the Config File.md",
+    "Notes/Running Navi for the First Time.md",
+    "Notes/Vault Structure.md",
+    "Notes/Getting Started.md",
+    "Tutorial.md",
+    "Notes/Configuration Tutorials.md",
+    "Navi Intro.md",
+    "Notes/Generating Links with Navi.md",
+    "Notes/Using Navi.md",
     "Notes/Testing Navi on a Sample Vault.md",
     "Notes/Template Tag System.md",
     "Notes/Self-Sibling Logic.md",
-    "Notes/Running Navi for the First Time.md",
     "Notes/Reverting Navi Changes.md",
     "Notes/Relationship Detection Logic.md",
     "Notes/relat.py.md",
@@ -192,10 +196,6 @@
     "Notes/io.py.md",
     "Notes/Installation Guide.md",
     "Notes/Hierarchical Structuring Guide.md",
-    "Notes/Getting Started.md",
-    "Notes/Frontmatter Metadata Model.md",
-    "Notes/Exclusion Mechanism.md",
-    "Notes/Excluding Notes and Folders.md",
     "replace_percent.py",
     "Tutorial -- read Intro ↓ at the bottom/Using Navi",
     "Tutorial -- read Intro ↓ at the bottom/Metadata & Frontmatter Usage",

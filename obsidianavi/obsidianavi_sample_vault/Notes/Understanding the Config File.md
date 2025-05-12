@@ -23,7 +23,7 @@ Understand `navi_config.json`, its location, structure, and what each setting co
 
 ## Details
 
-When you run Navi for the first time, it creates a configuration file at:
+When you run Navi for the first time, it creates a configuration file inside a hidden folder in your system. For Linux, that is at:
 
 ```
 ~/.config/obsidianavi/obsidianavi_config.json
@@ -31,7 +31,7 @@ When you run Navi for the first time, it creates a configuration file at:
 
 This file tells Navi how to behave — what to scan, what to ignore, what metadata to use, and how to format its output.
 
-You can edit it manually, or use CLI options to update it safely. Here’s what each section means:
+You can edit it manually (assuming you can find it), or use CLI options to update it safely. Here’s what each section means:
 
 ---
 
@@ -44,6 +44,14 @@ You can edit it manually, or use CLI options to update it safely. Here’s what 
 Specifies the folder Navi will treat as your vault root.  
 - `"."` means "wherever the command was run from"
 - You can set this to an absolute or relative path
+If you have a personal vault in your `/Documents` folder, you can set it up to be something similar to this (assuming Linux):
+
+```bash
+obsidianavi --set vault_directory='/home/username/Documents/name_of_your_vault'
+```
+
+> [!caution]
+> Remember to **back up your vault beforehand**, as this tool is still being tested.
 
 ---
 
