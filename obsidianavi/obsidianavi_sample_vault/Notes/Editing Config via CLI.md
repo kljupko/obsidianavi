@@ -30,20 +30,20 @@ Instead of editing `obsidianavi_config.json` by hand, you can safely update sett
 #### 1. `--set` — Update scalar values (e.g. strings, booleans)
 
 ```bash
-python -m obsidianavi.cli --set vault_directory=./vaults/notes
+obsidianavi --set vault_directory=./vaults/notes
 ```
 
 #### 2. `--add` — Add to list-type values (e.g. folders, tags)
 
 ```bash
-python -m obsidianavi.cli --add exclude_files=README
-python -m obsidianavi.cli --add hierarchy_keys=Area
+obsidianavi --add exclude_files=README
+obsidianavi --add hierarchy_keys=Area
 ```
 
 #### 3. `--remove` — Remove from lists
 
 ```bash
-python -m obsidianavi.cli --remove exclude_folders=Trash
+obsidianavi --remove exclude_folders=Trash
 ```
 
 > ✅ These commands use **dot notation** to access nested values:
@@ -56,17 +56,17 @@ python -m obsidianavi.cli --remove exclude_folders=Trash
 
 #### Change the date format
 ```bash
-python -m obsidianavi.cli --set date_settings.date_format=%Y/%m/%d
+obsidianavi --set date_settings.date_format=%Y/%m/%d
 ```
 
 #### Add a custom hierarchy key
 ```bash
-python -m obsidianavi.cli --add hierarchy_keys=Facet
+obsidianavi --add hierarchy_keys=Facet
 ```
 
 #### Remove a file exclusion
 ```bash
-python -m obsidianavi.cli --remove exclude_files=README
+obsidianavi --remove exclude_files=README
 ```
 
 ---
@@ -76,13 +76,13 @@ python -m obsidianavi.cli --remove exclude_files=README
 Use this to preview your current config as formatted JSON:
 
 ```bash
-python -m obsidianavi.cli --show-config
+obsidianavi --show-config
 ```
 
 Or retrieve a single value:
 
 ```bash
-python -m obsidianavi.cli --get template_tags.parents
+obsidianavi --get template_tags.parents
 ```
 
 ---

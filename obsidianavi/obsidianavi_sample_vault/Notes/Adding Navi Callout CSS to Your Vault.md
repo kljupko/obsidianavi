@@ -23,13 +23,15 @@ Use a custom CSS snippet to style ObsidiaNavi’s `[!navigation]` blocks inside 
 
 ## Details
 
-You can place the links you want Navi to generate inside a `[!navigation]` callout block — which Obsidian can style with CSS. To help you make it stand out, a ready-to-use CSS snippet is included in this package.
+You can place the links you want Navi to generate inside a `[!navigation]` callout block (like the one above the title here) which Obsidian can style with CSS. To help you make it stand out, a ready-to-use CSS snippet is included in this package.
 
-You’ll find it in the package folder after installing or downloading the repo:
+You’ll you can find the snippet in:
 
 ```
-/css/obsidianavi-callout.css
+/obsidianavi_sample_vault/.obsidian/snippets/obsidianavi-callout.css
 ```
+
+You can either download it from the repository, or copy it from the sample vault located in your `/Documents` folder after you run `obsidianavi` in your terminal to initialize it.
 
 ### 💡 How to use it in Obsidian
 
@@ -42,7 +44,10 @@ You’ll find it in the package folder after installing or downloading the repo:
 
 4. Go back to Obsidian and enable the snippet
 
-> That’s it — Navi’s `[!navigation]` blocks will now use the custom color and icon, and you can even style it as you see fit!
+That’s it — Navi’s `[!navigation]` blocks will now use the custom color and icon, and you can even style it as you see fit!
+
+> [!note]
+> You may need to quit and re-open Obsidian in order for the navigation icon do display properly.
 
 ---
 

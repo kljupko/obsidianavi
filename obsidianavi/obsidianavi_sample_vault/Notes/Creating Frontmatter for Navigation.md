@@ -27,12 +27,12 @@ Each note must begin with a block like this (by default):
 
 ```yaml
 ---
-Function: Tutorial
-Domain: Technology
-Sub-domain: Tools
-Subject: Navi
-Area: Using Navi
-Topic: Writing Links with Navi
+Function: <top-level purpose of the note: Information, Tutorial, Journal, ...>
+Domain: <broad, catch-all category: Technology, Literature, Science, ...>
+Sub-domain: <more concrete category: American Literature, Programming, ...>
+Subject: <what is being discussed: Navi, Python, William Faulkner, ...>
+Area: <specific area under the subject: Errors in Python, Short Stories, ...>
+Topic: <concrete information: Type Errors, A Rose for Emily, ...>
 ---
 ```
 

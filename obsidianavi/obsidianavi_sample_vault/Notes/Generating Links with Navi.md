@@ -4,7 +4,7 @@ Domain: Technology
 Sub-domain: Tools
 Subject: Navi
 Area: Using Navi
-Topic: Writing Links with Navi
+Topic: Generating Links with Navi
 ---
 > [!navigation]+
 > ⚓ Parent
@@ -16,7 +16,7 @@ Topic: Writing Links with Navi
 > 🖇️ Children (%%navi-cc%%)
 > %%navi-c%%
 
-# Writing Links with Navi
+# Generating Links with Navi
 
 ## Summary
 How to run `--write` and what it updates.
@@ -26,7 +26,7 @@ How to run `--write` and what it updates.
 This is the most common command you’ll use with Navi (assuming you don't automate it):
 
 ```bash
-python -m obsidianavi.cli --write
+obsidianavi --write
 ```
 
 It tells Navi to scan all notes, identify relationships, and replace placeholder tags with formatted Obsidian links.

@@ -25,30 +25,26 @@ How to install ObsidiaNavi, create the virtual environment, and install dependen
 
 If you’ve opened this vault, Navi is probably already installed — but if you ever need to re-install or set it up on a different machine, here’s how:
 
-### 1. Clone the repository (or download the code)
+### 1. Install it with `pip`
+
+Use `pip` to install the package directly from github. Open your terminal and enter the following (requires `pip`):
+
 ```bash
-git clone https://github.com/kljupko/obsidianavi.git
-cd obsidianavi
+pip install git+https://github.com/kljupko/obsidianavi.git
 ```
 
-Or download the `.zip` from GitHub and extract it.
+### 2. Initialize Navi
 
-### 2. (Optional) Create a virtual environment
-```bash
-python -m venv .venv
-source .venv/bin/activate   # macOS/Linux
-.venv\Scripts\activate      # Windows
-```
+To be able to use Navi and read the information in the sample vault, you will need to initialize it. This will create a default config file and create a sample vault in your `/Documents` folder. To initialize, simply run the following in your terminal:
 
-### 3. Install the package
 ```bash
-pip install .
+obsidianavi
 ```
 
 Navi is now ready to use. You can test it with:
 
 ```bash
-python -m obsidianavi.cli --show-config
+obsidianavi --show-config
 ```
 
 You should see the current configuration printed to the terminal.

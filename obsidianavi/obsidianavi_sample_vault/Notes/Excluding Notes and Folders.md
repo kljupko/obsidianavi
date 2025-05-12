@@ -34,14 +34,14 @@ To exclude items, edit the config file or use the CLI.
 
 **Examples** (CLI):
 ```bash
-python -m obsidianavi.cli --add exclude_files=README
-python -m obsidianavi.cli --add exclude_folders=Templates
+obsidianavi --add exclude_files=README
+obsidianavi --add exclude_folders=Templates
 ```
 
 You can check what's currently excluded by running:
 
 ```bash
-python -m obsidianavi.cli --show-config
+obsidianavi --show-config
 ```
 
 Matching is done by substring — if the file or folder name contains the value you provide, it will be ignored.

@@ -35,14 +35,14 @@ To see it in action:
 1. Open this vault in Obsidian
 2. Run:
    ```bash
-   python -m obsidianavi.cli --write
+   obsidianavi --write
    ```
 3. Click around — look for the `[!navigation]` blocks and follow the links
 
 You can revert everything cleanly at any time:
 
 ```bash
-python -m obsidianavi.cli --revert
+obsidianavi --revert
 ```
 
 Experiment freely. That’s what this vault is for.

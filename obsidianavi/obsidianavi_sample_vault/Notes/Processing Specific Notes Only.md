@@ -28,7 +28,7 @@ Sometimes, you may only want to update a few notes — not the whole vault.
 You can use the `--notes` option to specify one or more note names:
 
 ```bash
-python -m obsidianavi.cli --write --notes "Note A" "Note B"
+obsidianavi --write --notes "Note A" "Note B"
 ```
 
 This will:
@@ -39,7 +39,7 @@ This will:
 You can combine this with `--revert` too:
 
 ```bash
-python -m obsidianavi.cli --revert --notes "Note A"
+obsidianavi --revert --notes "Note A"
 ```
 
 This is helpful for testing changes or focusing on a specific topic.

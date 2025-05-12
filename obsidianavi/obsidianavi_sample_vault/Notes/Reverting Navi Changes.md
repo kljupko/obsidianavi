@@ -26,7 +26,7 @@ Undo ObsidiaNavi output using `--revert`.
 If you want to undo the changes made by Navi, just run:
 
 ```bash
-python -m obsidianavi.cli --revert
+obsidianavi --revert
 ```
 
 This will:
