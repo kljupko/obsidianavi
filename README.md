@@ -253,7 +253,7 @@ The sample vault also includes documentation notes mirroring the codebase — id
 
 Created by [Ljupko Kolak](https://github.com/kljupko)
 
-Tested on Linux.
+Tested on Linux & Windows.
 Contributions welcome via GitHub.
 
 ---
