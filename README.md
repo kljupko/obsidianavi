@@ -1,4 +1,4 @@
-# 🧽 ObsidiaNavi — Metadata-Driven Navigation for Obsidian Notes
+# ObsidiaNavi — Metadata-Driven Navigation for Obsidian Notes
 
 ![navi](https://github.com/user-attachments/assets/910b1e47-a4f5-4892-aa9b-5d163e35a15a)
 
