@@ -115,13 +115,13 @@ You can edit it using the CLI:
 obsidianavi --show-config
 
 # Set a new vault path
-obsidianavi --set vault_directory=~/Documents/my_real_vault
+obsidianavi --set vault_directory="~/Documents/my_real_vault"
 
 # Add a hierarchy key
-obsidianavi --add hierarchy_keys=Facet
+obsidianavi --add hierarchy_keys="Facet"
 
 # Remove an excluded folder
-obsidianavi --remove exclude_folders=Templates
+obsidianavi --remove exclude_folders="Templates"
 ```
 
 ---
@@ -221,7 +221,7 @@ obsidianavi --write
 obsidianavi --revert
 
 # Target your own vault
-obsidianavi --set vault_directory=~/Documents/my_notes
+obsidianavi --set vault_directory="~/Documents/my_notes"
 
 # Process your own notes
 obsidianavi --write
